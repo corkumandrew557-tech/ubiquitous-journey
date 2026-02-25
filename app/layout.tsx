@@ -21,7 +21,13 @@ const robotoMono = Roboto_Mono({
 });
 
 const rebelGrotesk = localFont({
-  src: "../public/fonts/Rebels-Fett.woff2",
+  src: [
+    {
+      path: "../public/fonts/Rebels-Fett.woff2",
+      weight: "400",
+      style: "normal",
+    },
+  ],
   variable: "--font-rebels",
   display: "swap",
 });
