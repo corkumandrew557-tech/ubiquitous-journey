@@ -1,0 +1,42 @@
+{
+  "name": "ubiquitous-journey",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "remix vite:dev",
+    "build": "remix vite:build",
+    "preview": "remix-serve build/server/index.js",
+    "lint": "eslint --no-error-on-unmatched-pattern --ext .js,.ts,.jsx,.tsx app"
+  },
+  "dependencies": {
+    "@remix-run/node": "^2.17.4",
+    "@remix-run/react": "^2.8.1",
+    "@remix-run/serve": "^2.8.1",
+    "@shopify/hydrogen": "^2024.1.0",
+    "@shopify/remix-oxygen": "^2.0.3",
+    "@vercel/analytics": "^1.4.0",
+    "graphql": "^16.8.1",
+    "graphql-tag": "^2.12.6",
+    "isbot": "^4.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.8.1",
+    "@shopify/cli": "^3.56.0",
+    "@shopify/cli-hydrogen": "^7.1.0",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^8.56.1",
+    "@typescript-eslint/parser": "^8.56.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
